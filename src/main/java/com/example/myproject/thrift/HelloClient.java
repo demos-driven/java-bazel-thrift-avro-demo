@@ -29,6 +29,6 @@ public class HelloClient {
         transport.open();
 
         String result = client.greeting(userName);
-        System.out.println("Thrief client result: " + result);
+        System.out.println("Thrift client result: " + result);
     }
 }
