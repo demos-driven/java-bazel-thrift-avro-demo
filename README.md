@@ -13,7 +13,7 @@ brew install thrift
 ## generate code
 
 ```bash    
-thrift -r -gen java -out src/main/java/ hello.thrift
+thrift -r -gen java -out src/main/java/ src/main/java/urbancompass/bootcamp/idl/hello.thrift
 ```
 
 ## 启动server:
