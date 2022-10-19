@@ -1,11 +1,11 @@
-package com.example.myproject.thrift;
+package urbancompass.bootcamp.thrift;
 
-import com.example.myproject.gencode.hello.HelloService;
 import org.apache.thrift.TException;
 import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
+import urbancompass.bootcamp.gencode.thrift.HelloService;
 
 public class HelloClient {
 

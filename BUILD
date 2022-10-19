@@ -4,13 +4,13 @@ package(default_visibility = ["//visibility:public"])
 
 java_binary(
     name = "thrift-server",
-    main_class = "com.example.myproject.thrift.HelloServer",
+    main_class = "urbancompass.bootcamp.thrift.HelloServer",
     runtime_deps = [":thrift-lib"],
 )
 
 java_binary(
     name = "thrift-client",
-    main_class = "com.example.myproject.thrift.HelloClient",
+    main_class = "urbancompass.bootcamp.thrift.HelloClient",
     runtime_deps = [":thrift-lib"],
 )
 
