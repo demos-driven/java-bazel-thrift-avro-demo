@@ -49,6 +49,12 @@ brew install avro-tools
 avro-tools compile -string schema src/main/java/urbancompass/bootcamp/schema/user.avsc src/main/java
 ```
 
+### run avro serialization
+
+```bash
+bazel run :avro_serialization
+```
+
 ### Visual serialized code
 
 ```bash

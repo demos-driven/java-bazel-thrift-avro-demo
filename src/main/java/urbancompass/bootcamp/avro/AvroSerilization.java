@@ -44,7 +44,7 @@ public class AvroSerilization {
   }
 
   public static void main(String[] args) throws IOException {
-    String fileName = "/Users/litong.deng/workspace/compass/dip/java-bazel-thrift-demo/users.avro";
+    String fileName = "/Users/litong.deng/workspace/compass/dip/java-bazel-thrift-avro-demo/users.avro";
     serializeTo(fileName);
     // deserializeFrom(fileName);
   }
