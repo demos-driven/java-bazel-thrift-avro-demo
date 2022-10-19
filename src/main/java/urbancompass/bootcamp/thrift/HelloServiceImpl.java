@@ -1,7 +1,6 @@
 package urbancompass.bootcamp.thrift;
 
 import org.apache.thrift.TException;
-import urbancompass.bootcamp.gencode.thrift.HelloService;
 
 public class HelloServiceImpl implements HelloService.Iface {
 

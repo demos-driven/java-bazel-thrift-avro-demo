@@ -5,7 +5,6 @@ import org.apache.thrift.protocol.TCompactProtocol;
 import org.apache.thrift.protocol.TProtocol;
 import org.apache.thrift.transport.TSocket;
 import org.apache.thrift.transport.TTransport;
-import urbancompass.bootcamp.gencode.thrift.HelloService;
 
 public class HelloClient {
 

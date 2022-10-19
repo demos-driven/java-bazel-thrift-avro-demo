@@ -5,7 +5,6 @@ import org.apache.thrift.server.TServer;
 import org.apache.thrift.server.TSimpleServer;
 import org.apache.thrift.transport.TServerSocket;
 import org.apache.thrift.transport.TTransportException;
-import urbancompass.bootcamp.gencode.thrift.HelloService;
 
 public class HelloServer {
 
