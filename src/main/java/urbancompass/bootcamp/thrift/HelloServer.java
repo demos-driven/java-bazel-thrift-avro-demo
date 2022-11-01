@@ -19,7 +19,7 @@ public class HelloServer {
         System.out.println("Hello TSimpleServer start...");
 
         HelloService.Processor<HelloService.Iface> tprocessor =
-                new HelloService.Processor<HelloService.Iface>(new HelloServiceImpl());
+                new HelloService.Processor<HelloService.Iface>(new HelloServiceHandler());
         TServerSocket serverTransport = new TServerSocket(PORT);
 
         TServer.Args tArgs = new TServer.Args(serverTransport);

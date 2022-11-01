@@ -2,7 +2,7 @@ package urbancompass.bootcamp.thrift;
 
 import org.apache.thrift.TException;
 
-public class HelloServiceImpl implements HelloService.Iface {
+public class HelloServiceHandler implements HelloService.Iface {
 
     @Override
     public String greeting(String name) throws TException {
